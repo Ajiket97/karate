@@ -9,12 +9,12 @@ import com.pojoClass.GoRestUser;
 
 import io.restassured.http.ContentType;
 
-public class GoRest {
+public class GoRest{
 	GoRestUser Gouser = new GoRestUser();
 
 	@Test
 	public void postOperationGoRest() {
-		Gouser.setId(55);
+		Gouser.setId(55);  
 		Gouser.setName("Ajit");
 		Gouser.setStatus("active");
 		Gouser.setGender("male");
