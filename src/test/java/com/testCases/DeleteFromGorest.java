@@ -17,12 +17,12 @@ public class DeleteFromGorest {
 		GoRestUser user  = new GoRestUser();
 		user.setId(55);
 		user.setGender("male");
-		user.setEmail("aj@1235.com");
+		user.setEmail("aj@125535.com");
 		user.setName("ajit");
 		user.setStatus("active");
 		given(sb.requestSB())
 		.body(user)
-		//.pathParam("id", "6940124")
+//.pathParam("id", "6940124")
 		.when()
 		.post()
 		.then()
